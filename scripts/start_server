@@ -1,5 +1,2 @@
 #!/bin/bash
-cd /home/ec2-user/node-website
-export NODE_ENV=production
-forever start app.js
-service httpd start
+sudo systemctl start apache2
