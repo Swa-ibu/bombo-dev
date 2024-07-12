@@ -7,4 +7,5 @@ chmod 755 /usr/local/bin/get_authorized_keys
 sed -i '/AuthorizedKeysCommand /s/.*/AuthorizedKeysCommand \/usr\/local\/bin\/get_authorized_keys/g' /etc/ssh/sshd_config
 sed -i '/AuthorizedKeysCommandUser /s/.*/AuthorizedKeysCommandUser root/g' /etc/ssh/sshd_config
 
-apt install aws-cfn-bootstrap -y
+sudo pip3 install aws-cfn-bootstrap
+
