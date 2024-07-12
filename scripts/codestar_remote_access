@@ -14,5 +14,6 @@ sudo apt-get install python3-venv
 python3 -m venv myenv
 
 source myenv/bin/activate
+sudo apt-get install pipx
 
 pip3 install aws-cfn-bootstrap
