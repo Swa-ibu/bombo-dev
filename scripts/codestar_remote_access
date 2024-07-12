@@ -11,7 +11,7 @@ apt-get install python3-pip -y
 
 sudo apt-get install python3-venv
 
-sudo python3 -m venv myenv
+python3 -m venv myenv
 
 source myenv/bin/activate
 
