@@ -9,7 +9,10 @@ sed -i '/AuthorizedKeysCommandUser /s/.*/AuthorizedKeysCommandUser root/g' /etc/
 
 apt-get install python3-pip -y
 
+apt-get install python3-venv
+
+python3 -m venv myenv
+
+source myenv/bin/activate
+
 pip3 install aws-cfn-bootstrap
-
-
-
